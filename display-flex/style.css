@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+}
+.bloco{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+}
