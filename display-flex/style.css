@@ -1,42 +1,64 @@
 .container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+
 }
 .bloco_1{
     width: 300px;
-    height: 400px;
+    height: 550px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     align-content: center;
-    background-color: rgb(127, 245, 141);
+    border:1px solid black;
+    border-radius: 10px;
 }
 .bloco_2{
     width: 300px;
-    height: 400px;
+    height: 550px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     align-content: center;
-    background-color: rgb(249, 225, 154);
+    border:1px solid black;
+    border-radius: 10px;
 }
 .bloco_3{
     width: 300px;
-    height: 400px;
+    height: 550px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     align-content: center;
-    background-color: rgb(127, 221, 245);
+    border:1px solid black;
+    border-radius: 10px;
 }
 .bloco_4{
     width: 300px;
-    height: 400px;
+    height: 550px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     align-content: center;
-    background-color: rgb(245, 127, 212);
+    border:1px solid black;
+    border-radius: 10px;
+}
+.description{
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Roboto", "Verdana", sans-serif;
+}
+.read-more{
+    border-top: 1px solid black;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    background-color: antiquewhite;
+}
+.read-more a{
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
