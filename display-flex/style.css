@@ -1,8 +1,42 @@
 .container{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
-.bloco{
+.bloco_1{
     width: 100px;
     height: 100px;
-    background-color: rgb(8, 8, 8);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(127, 245, 141);
+}
+.bloco_2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(249, 225, 154);
+}
+.bloco_3{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(127, 221, 245);
+}
+.bloco_4{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(245, 127, 212);
 }
